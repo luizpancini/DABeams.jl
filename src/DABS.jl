@@ -1,6 +1,6 @@
 module DABS
 
-export greeting
+export greeting, plusTwo!
 include("functions.jl")
 
 end
