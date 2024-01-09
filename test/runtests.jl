@@ -2,5 +2,5 @@ using DABS
 using Test
 
 @testset "DABS.jl" begin
-    # Write your tests here.
+    @test DABS.greeting() == "You are using the DABS package"
 end
