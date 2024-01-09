@@ -1,5 +1,6 @@
 module DABS
 
-# Write your package code here.
+export greeting
+include("functions.jl")
 
 end
