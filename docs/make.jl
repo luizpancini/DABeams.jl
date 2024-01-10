@@ -1,13 +1,13 @@
 # Inside make.jl
 push!(LOAD_PATH,"../src/")
-using DABeamS
+using DABeams
 using Documenter
 makedocs(
-         sitename = "DABeamS.jl",
-         modules  = [DABeamS],
+         sitename = "DABeams.jl",
+         modules  = [DABeams],
          pages=[
                 "Home" => "index.md"
                ])
 deploydocs(;
-    repo="github.com/luizpancini/DABeamS.jl",
+    repo="github.com/luizpancini/DABeams.jl",
 )

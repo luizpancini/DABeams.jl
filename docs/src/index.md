@@ -1,4 +1,4 @@
-# DABeamS.jl
+# DABeams.jl
 *Dynamics and Aeroelasticity of Beam Structures package.*
 ## Package Features
 - Beam finite element model derived from the geometrically-exact theory of anisotropic beams.

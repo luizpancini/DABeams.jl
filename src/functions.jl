@@ -14,11 +14,11 @@ A more detailed explanation can go here, although I guess it is not needed in th
 # Examples
 ```julia
 julia> greeting()
-You are using the DABeamS package
+You are using the DABeams package
 ```
 """
 function greeting()
-    return "You are using the DABeamS package"
+    return "You are using the DABeams package"
 end
 
 """

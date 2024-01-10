@@ -1,9 +1,9 @@
-using DABeamS
+using DABeams
 using Test
 
-@testset "DABeamS.jl" begin
-    @test DABeamS.greeting() == "You are using the DABeamS package"   
-    @test DABeamS.plusTwo!(3) == 5
-    @test DABeamS.plusTwo!(3.0) == 5.0 
-    @test DABeamS.plusTwo!(1.0) == 3.0   
+@testset "DABeams.jl" begin
+    @test DABeams.greeting() == "You are using the DABeams package"   
+    @test DABeams.plusTwo!(3) == 5
+    @test DABeams.plusTwo!(3.0) == 5.0 
+    @test DABeams.plusTwo!(1.0) == 3.0   
 end
