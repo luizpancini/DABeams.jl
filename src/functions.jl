@@ -21,10 +21,11 @@ function greeting()
     return "You are using the DABeams package"
 end
 
+
 """
     plusTwo!(x::Int64)
 
-    Sum the numeric "2" to whatever it receives as input
+    Sum the integer "2" to whatever it receives as input
 
     A more detailed explanation can go here, although I guess it is not needed in this case
 
@@ -44,10 +45,11 @@ function plusTwo!(x::Int64)
     return x+2
 end
 
+
 """
     plusTwo!(x::Float64)
 
-    Sum the numeric "2" to whatever it receives as input
+    Sum the float "2.0" to whatever it receives as input
 
     A more detailed explanation can go here, although I guess it is not needed in this case
 
